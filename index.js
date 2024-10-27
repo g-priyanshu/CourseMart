@@ -1,7 +1,7 @@
 const express = require("express");
 const jwt = require("jsonwebtoken");
-const {userRouter} = require("../routes/userroute")
-const {courseRouter} = require("../routes/")
+const {userRouter} = require("./routes/userroute")
+const {courseRouter} = require("./routes")
 const app = express();
 
 
