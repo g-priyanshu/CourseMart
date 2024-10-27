@@ -1,21 +1,9 @@
 const express = require("express");
 const jwt = require("jsonwebtoken");
+const {userRouter} = require("../routes/userroute")
+const {courseRouter} = require("../routes/")
 const app = express();
 
-
-
-app.post("/user/signup" , async function(req, res){
-
-})
-
-app.post("/user/signin" , async function(req, res){
-    
-})
-
-
-app.get("user/purchases" , async function(req, res){
-    
-})
 
 
 app.get("/course/purchase" , function(req, res){
